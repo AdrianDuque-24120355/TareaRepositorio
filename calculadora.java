@@ -24,6 +24,10 @@ public class TestCalculadora{
               res=num1*num2;
               break;
 
+            case "/"
+             res=num1/num2;
+             break;
+
         System.out.println("resultado:" + res);
 
         }
