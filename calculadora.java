@@ -7,6 +7,7 @@ public class TestCalculadora{
         int num1=0, num2=0;
         String val="a";
         double res = 0;
+
         
         System.out.println("Que calculo realizarás? Ingresa el signo ");
 
@@ -18,4 +19,11 @@ public class TestCalculadora{
             case"-":
             res= num1-num2;
             break;
+
+            case "*":
+              res=num1*num2;
+              break;
+
+        System.out.println("resultado:" + res);
+
         }
